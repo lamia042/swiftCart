@@ -42,6 +42,6 @@ it does not modify the original array
 
 ## 5️⃣ Concept of Scope in JavaScript
 it determines the accessibility of variables in different parts of the code
-global scope: variables declared outside any function or block and accessible anywhere in the code
-function scope: variable declared inside a function is accessible only within that function
-blick scope:  variables declared with let or const inside {} are accessible to that block only
+-global scope: variables declared outside any function or block and accessible anywhere in the code
+-function scope: variable declared inside a function is accessible only within that function
+-blick scope:  variables declared with let or const inside {} are accessible to that block only
