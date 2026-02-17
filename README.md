@@ -41,7 +41,8 @@ it does not modify the original array
 - await stops the execution of the function until the promise resolves
 
 ## 5️⃣ Concept of Scope in JavaScript
-it determines the accessibility of variables in different parts of the code
--global scope: variables declared outside any function or block and accessible anywhere in the code
--function scope: variable declared inside a function is accessible only within that function
--blick scope:  variables declared with let or const inside {} are accessible to that block only
+Scope determines the accessibility of variables in different parts of the code.
+
+- **Global Scope:** Variables declared outside any function or block are accessible anywhere in the code.
+- **Function Scope:** A variable declared inside a function is accessible only within that function.
+- **Block Scope:** Variables declared with `let` or `const` inside `{}` are accessible only within that block.
