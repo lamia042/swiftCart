@@ -19,6 +19,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const mobileMenu = document.getElementById("mobileMenu");
 
   let cart = JSON.parse(localStorage.getItem("cart")) || [];
+  
 
   /* ================= FLOATING HEADER ================= */
   window.addEventListener("scroll", function () {
@@ -218,6 +219,14 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   /* ================= CART ================= */
+
+  function addToCart(product) {
+  cart.push(product);
+  localStorage.setItem("cart", JSON.stringify(cart));
+  updateCart();
+}
+
+
   function updateCart() {
     cartCount.innerText = cart.length;
 
